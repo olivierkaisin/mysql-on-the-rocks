@@ -1,5 +1,5 @@
 
-Mysql on the rocks ![alt text](https://olivierkaisin.s3.amazonaws.com/rocks.png) 
+Mysql on the rocks ![alt text](https://olivierkaisin.s3.amazonaws.com/rocks.png) [![Build Status](https://travis-ci.org/olivierkaisin/mysql-on-the-rocks.svg)](https://travis-ci.org/olivierkaisin/mysql-on-the-rocks)
 ===================================================
 
 A dead-simple NodeJS module designed for handling storage / retrieval of Javascript objects to MySQL.
