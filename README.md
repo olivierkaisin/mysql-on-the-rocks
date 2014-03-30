@@ -1,5 +1,5 @@
 
-Mysql on the rocks ![alt text](http://www.campari.com/media/9286/ontherocks.png) 
+Mysql on the rocks ![alt text](https://olivierkaisin.s3.amazonaws.com/rocks.png) 
 ===================================================
 
 A dead-simple NodeJS module designed for handling storage / retrieval of Javascript objects to MySQL.
