@@ -1,13 +1,13 @@
 {
   "name": "mysql-on-the-rocks",
-  "version": "0.0.1",
+  "version": "0.4.9",
   "description": "A dead-simple MySQL module for Node.js",
   "main": "./src/crud.js",
   "scripts": {
     "test": "mocha --reporter spec tests/"
   },
   "author": "Olivier Kaisin",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "mysql": "~2.1.1",
     "q": "~1.0.1",
@@ -18,5 +18,9 @@
     "mocha": "~1.18.2",
     "chai": "~1.9.1",
     "mockery": "~1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
   }
 }

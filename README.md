@@ -187,3 +187,6 @@ mysql.findObjects(
 }).done();
 ``` 
 
+## License
+
+MIT
