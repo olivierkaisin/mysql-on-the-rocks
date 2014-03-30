@@ -43,9 +43,7 @@ mysql.create({
 ## Documentation
 
 
-```javascript
-mysql.findObjects(tableName, query, [order, count, offset]);
-```
+##### `mysql.findObjects(tableName, query, [order, count, offset])`
 
 Finds an object in the database.
 
@@ -61,17 +59,13 @@ __Returns__  `Promise<Object>`
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-```javascript
-mysql.findObject(tableName, query, [order, offset]);
-```
+##### `mysql.findObject(tableName, query, [order, offset])`
 
 Alias of `mysql.findObjects` with count set at 1.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-```javascript
-mysql.save(tableName, obj);
-```
+##### `mysql.save(tableName, obj)`
 
 |  Argument                 | Type                    | Description                                                   |
 |---------------------------|-------------------------|---------------------------------------------------------------|
@@ -85,23 +79,17 @@ If the object has an `id` already, it will be updated, otherwise it will be inse
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-```javascript
-mysql.insertObject(tableName, obj);
-```
+##### `mysql.insertObject(tableName, obj)`
 
 and 
 
-```javascript
-mysql.updateObject(tableName, obj);
-```
+##### `mysql.updateObject(tableName, obj)`
 
 __See__ ``mysql.save()``
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-```javascript
-mysql.deleteObject(tableName, object);
-```
+##### `mysql.deleteObject(tableName, object)`
 
 |  Argument                 | Type                    | Description                                                   |
 |---------------------------|-------------------------|---------------------------------------------------------------|
@@ -115,9 +103,7 @@ Deletes the object from the table.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-```javascript
-mysql.findObjectsWithQuery(queryString)
-```
+##### `mysql.findObjectsWithQuery(queryString)`
 
 |  Argument                 | Type                    | Description                                                   |
 |---------------------------|-------------------------|---------------------------------------------------------------|
@@ -129,9 +115,7 @@ Use this method if you want to retrieve objects and not use the internal query b
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-```javascript
-mysql.query(queryString)
-```
+##### `mysql.query(queryString)`
 
 |  Argument                 | Type                    | Description                                                   |
 |---------------------------|-------------------------|---------------------------------------------------------------|
