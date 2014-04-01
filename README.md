@@ -1,9 +1,9 @@
-
 MySQL On The Rocks ![alt text](https://olivierkaisin.s3.amazonaws.com/rocks.png) [![Build Status](https://travis-ci.org/olivierkaisin/mysql-on-the-rocks.svg)](https://travis-ci.org/olivierkaisin/mysql-on-the-rocks)
 ===================================================
 
 A dead-simple Node.js module designed for handling storage / retrieval of Javascript objects to MySQL.
 
+The underlying layer uses __Q__ for Promises and __node-mysql__ as adapter.
 
 ## Quick example
 
@@ -11,7 +11,7 @@ A dead-simple Node.js module designed for handling storage / retrieval of Javasc
 "use strict";
 
 
-var mysql = require("mysql-io");
+var mysql = require("mysql-on-the-rocks");
 
 
 // First you need to create a connection to the db
@@ -40,7 +40,7 @@ mysql.create({
 ```
 
 
-## Documentation
+## API Reference
 
 
 ##### `mysql.findObjects(tableName, query, [order, count, offset])`
