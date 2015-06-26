@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/npm/npm.git"
+    "url": "olivierkaisin/node-mysql-on-the-rocks"
   }
 }
